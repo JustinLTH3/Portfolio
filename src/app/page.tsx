@@ -40,13 +40,13 @@ export default function Home() {
                     <h1 className="w-full">Projects</h1>
                     <div className="flex w-full justify-center">
                         <ProjectOverview
-                            ImagePath="/vercel.svg"
+                            ImagePath="/Portfolio/vercel.svg"
                             Title={"Dead Aim"}
                             Description={"GroupProject"}
                             link={"/Projects/DeadAim"}
                         />
                         <ProjectOverview
-                            ImagePath="/vercel.svg"
+                            ImagePath="/Portfolio/vercel.svg"
                             Title={"Dead Aim"}
                             Description={"GroupProject"}
                             link={"/Projects/DeadAim"}
