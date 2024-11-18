@@ -3,11 +3,11 @@ import ProjectOverview from "@/app/Components/ProjectOverview";
 export default function Home() {
     return (
         <div
-            className="items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-mono">
-            <main className="flex flex-col gap-8 row-start-2 text-center items-center sm:items-start">
-                <div className="w-full flex justify-center flex-col items-center text-cyan-100 ">
+            className="items-center justify-items-center min-h-screen font-mono">
+            <main className="flex flex-col text-center items-center sm:items-start">
+                <div className="w-full flex flex-col items-center">
                     <h1 className="w-full justify-centere">About Me</h1>
-                    <p className="flex justify-center flex-col">
+                    <p className="flex justify-center flex-col text-cyan-100">
                         I am Tsz Him Lai, a passionate Computer Games Programming student at De Montfort University who
                         is devoted to learn new knowledge and skills to develop capabilities and wider vision to solve
                         problems with suitable solutions.
@@ -42,15 +42,18 @@ export default function Home() {
                         <ProjectOverview
                             ImagePath="/Portfolio/vercel.svg"
                             Title={"Dead Aim"}
-                            Description={"GroupProject"}
+                            Description={"A multiplayer third person shooter that the player aims is to be the first to kill the opponent five times."}
                             link={"/Projects/DeadAim"}
+                            Software={"UE 5.3"}
                         />
                         <ProjectOverview
                             ImagePath="/Portfolio/vercel.svg"
-                            Title={"Dead Aim"}
-                            Description={"GroupProject"}
-                            link={"/Projects/DeadAim"}
+                            Title={"Question Mark"}
+                            Description={"A Mobile Game that swipe the screen to prevent being hit by the enemy."}
+                            link={"/Projects/QuestionMark"}
+                            Software={"Unity 2022.3.4"}
                         />
+
                     </div>
                 </div>
             </main>
