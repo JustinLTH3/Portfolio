@@ -25,19 +25,20 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
+        <html lang="en" className={"scroll-smooth"}>
         <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased text-pink-200`}
         >
-        <div className="flex sticky top-0 h-12 flex-row text-pink-300 items-center border-b-2 backdrop-brightness-0">
+        <div
+            className="z-50 flex sticky top-0 h-12 flex-row text-pink-300 items-center border-b-2 backdrop-brightness-0">
             <Link href="/" className="p-10 text-2xl font-bold">Tsz Him Lai</Link>
-            <Link href="/Projects">Projects</Link>
+            <Link href="/#Projects" className={"ease-in-out"} >Projects</Link>
         </div>
         {children}
         <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center pb-5 pt-4">
             <Link
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                href="/Projects"
+                href="/#Projects"
                 rel="noopener noreferrer"
             >
                 Projects

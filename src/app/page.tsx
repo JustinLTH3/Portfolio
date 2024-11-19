@@ -37,20 +37,20 @@ export default function Home() {
                     </table>
                 </div>
                 <div className="w-full flex justify-center flex-col items-center text-cyan-100">
-                    <h1 className="w-full">Projects</h1>
+                    <h1 className="w-full" id="Projects">Projects</h1>
                     <div className="flex w-full justify-center">
                         <ProjectOverview
                             ImagePath="/Portfolio/vercel.svg"
                             Title={"Dead Aim"}
                             Description={"A multiplayer third person shooter that the player aims is to be the first to kill the opponent five times."}
-                            link={"/Projects/DeadAim"}
+                            link={"/DeadAim"}
                             Software={"UE 5.3"}
                         />
                         <ProjectOverview
                             ImagePath="/Portfolio/vercel.svg"
                             Title={"Question Mark"}
                             Description={"A Mobile Game that swipe the screen to prevent being hit by the enemy."}
-                            link={"/Projects/QuestionMark"}
+                            link={"/QuestionMark"}
                             Software={"Unity 2022.3.4"}
                         />
 
