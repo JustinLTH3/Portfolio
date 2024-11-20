@@ -15,15 +15,16 @@ export default function Page() {
                         className="object-contain"
                     />
                 </div>
-                <div className="w-full text-start text-cyan-100">
-                    <Link href={"https://github.com/JustinLTH3/QuestionMark"}>GitHub</Link>
+                <div className="w-full text-start flex flex-row">
+                    <Link href={"https://github.com/JustinLTH3/QuestionMark"} target="_blank" className="text-cyan-100">GitHub</Link>
+                    <p className="px-5">Unity</p>
                 </div>
                 <div className="w-[400px] lg:w-[800px] pt-5">
                     <h2 className="w-full">Description</h2>
-                    <p>Test</p>
+                    <p>A Mobile Game that swipe the screen to prevent being hit by the enemy.</p>
                 </div>
                 <div className="w-[400px] lg:w-[800px] pt-5">
-                    <h2 className="w-full">Control</h2>
+                    <h2 className="w-full">Object Polling</h2>
                     <p>Test</p>
                 </div>
             </div>

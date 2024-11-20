@@ -7,7 +7,7 @@ export default function Home() {
             <main className="flex flex-col text-center items-center sm:items-start">
                 <div className="w-full flex flex-col items-center">
                     <h1 className="w-full justify-centere">About Me</h1>
-                    <p className="flex justify-center flex-col text-cyan-100">
+                    <p className="flex justify-center flex-col text-cyan-100 lg:w-1/2 w-full">
                         I am Tsz Him Lai, a passionate Computer Games Programming student at De Montfort University who
                         is devoted to learn new knowledge and skills to develop capabilities and wider vision to solve
                         problems with suitable solutions.

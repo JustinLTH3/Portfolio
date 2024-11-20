@@ -32,6 +32,6 @@ th {
     @apply text-pink-100 font-bold;
 }
 
-p {
-    @apply text-lg justify-center w-full lg:w-2/3;
+p,a {
+    @apply text-lg justify-center;
 }
