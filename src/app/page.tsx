@@ -40,17 +40,17 @@ export default function Home() {
                     <h1 className="w-full" id="Projects">Projects</h1>
                     <div className="flex w-full justify-center">
                         <ProjectOverview
-                            ImagePath="/Portfolio/vercel.svg"
+                            ImagePath="/Portfolio/DeadAimMainMenu.png"
                             Title={"Dead Aim"}
                             Description={"A multiplayer third person shooter that the player aims is to be the first to kill the opponent five times."}
                             link={"/DeadAim"}
                             Software={"UE 5.3"}
                         />
                         <ProjectOverview
-                            ImagePath="/Portfolio/vercel.svg"
-                            Title={"Question Mark"}
+                            ImagePath="/Portfolio/PunctuationMenu.png"
+                            Title={"Punctuation"}
                             Description={"A Mobile Game that swipe the screen to prevent being hit by the enemy."}
-                            link={"/QuestionMark"}
+                            link={"/Punctuation"}
                             Software={"Unity 2022.3.4"}
                         />
 

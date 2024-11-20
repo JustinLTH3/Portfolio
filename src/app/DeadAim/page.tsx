@@ -7,7 +7,7 @@ export default function Page() {
                 <h1 className="">Dead Aim</h1>
                 <div className="h-[225px] lg:h-[450px] w-[400px] lg:w-[800px] border-2 relative items-center">
                     <Image
-                        src={"/Portfolio/vercel.svg"}
+                        src={"/Portfolio/DeadAimMainMenu.png"}
                         alt={"Screenshot"}
                         fill
                         sizes={"100vw"}
