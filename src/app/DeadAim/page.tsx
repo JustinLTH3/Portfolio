@@ -28,6 +28,12 @@ export default function Page() {
                         be the first to kill the opponent five times. I worked on the weapon, game loop and character of
                         the game.
                     </p>
+                    <h3>What I worked on</h3>
+                    <ul className="list-disc list-inside">
+                        <li>Weapon</li>
+                        <li>Game Loop</li>
+                        <li>Character</li>
+                    </ul>
                 </div>
                 <div className="w-full pt-5">
                     <h2>Weapon</h2>

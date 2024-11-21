@@ -35,7 +35,7 @@ th {
     @apply  font-bold;
 }
 
-p,a {
+p,a ,li{
     @apply text-lg justify-center text-pink-200;
 }
 b{
