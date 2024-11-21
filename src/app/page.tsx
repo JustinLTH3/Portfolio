@@ -42,7 +42,7 @@ export default function Home() {
                         <ProjectOverview
                             ImagePath="/Portfolio/DeadAimMainMenu.png"
                             Title={"Dead Aim"}
-                            Description={"A multiplayer third person shooter that the player aims is to be the first to kill the opponent five times."}
+                            Description={"A multiplayer 1vs1 third person shooter that the player aims is to be the first to kill the opponent five times."}
                             link={"/DeadAim"}
                             Software={"UE 5.3"}
                         />

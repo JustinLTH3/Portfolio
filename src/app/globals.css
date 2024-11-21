@@ -21,17 +21,23 @@ body {
 }
 
 h1 {
-    @apply text-3xl  pb-5 justify-center text-pink-200 pt-32;
+    @apply text-4xl  pb-5 justify-center text-pink-300 pt-32 font-bold;
 }
 
 h2 {
-    @apply text-2xl text-pink-100;
+    @apply text-3xl text-pink-300 ;
+}
+h3{
+    @apply text-2xl pt-2 text-cyan-100;
 }
 
 th {
-    @apply text-pink-100 font-bold;
+    @apply  font-bold;
 }
 
 p,a {
-    @apply text-lg justify-center;
+    @apply text-lg justify-center text-pink-200;
+}
+b{
+    @apply text-yellow-100;
 }
