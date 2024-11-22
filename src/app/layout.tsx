@@ -31,7 +31,7 @@ export default function RootLayout({
         >
         <div
             className="z-50 flex sticky top-0 h-12 flex-row text-pink-300 items-center border-b-2 backdrop-brightness-0">
-            <Link href="/" className="p-10 text-2xl font-bold">Tsz Him Lai</Link>
+            <Link href="/" className="p-10 text-2xl font-bold ease-in-out">Tsz Him Lai</Link>
             <Link href="/#Projects" className={"ease-in-out"}>Projects</Link>
         </div>
         {children}

@@ -33,11 +33,13 @@ h3 {
 }
 
 th {
-    @apply font-bold text-cyan-100;
+    @apply font-bold text-yellow-100 w-full;
 }
-
-p, a, li {
-    @apply text-lg justify-center text-pink-200;
+td{
+    @apply w-full;
+}
+p, li {
+    @apply text-lg justify-center text-pink-200 text-left;
 }
 
 b {

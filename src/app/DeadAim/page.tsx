@@ -12,21 +12,19 @@ export default function Page() {
                         alt={"Screenshot"}
                         fill
                         sizes={"100vw"}
-                        className="object-contain border-2 rounded-lg"
+                        className="object-contain border-[1px] rounded-lg"
                     />
                 </div>
                 <div className="w-full text-start flex flex-row">
                     <Link href={"https://github.com/JustinLTH3/GAMR3510Assignment"} target="_blank"
-                          className="text-cyan-100">GitHub</Link>
+                          className="text-cyan-200">GitHub</Link>
                     <p className="px-5">UE 5.3</p>
                 </div>
                 <div className="w-full pt-5">
                     <h2 className="w-full">Description</h2>
                     <p>
-                        A <b className="text-yellow-100">multiplayer</b> 1vs1 third person shooter that the player aims
-                        is to
-                        be the first to kill the opponent five times. I worked on the weapon, game loop and character of
-                        the game.
+                        A <b>multiplayer</b> 1vs1 third person shooter that the player aims is to be the first to kill
+                        the opponent five times. I worked on the weapon, game loop and character of the game.
                     </p>
                     <h3>What I worked on</h3>
                     <ul className="list-disc list-inside">

@@ -5,22 +5,26 @@ import Link from "next/link";
 export default function ProjectOverview({ImagePath, Title, Description, link, Software}: {
     ImagePath: string,
     Title: string,
-    Description: string,
+    Description: React.ReactNode,
     link: string,
     Software: string,
 }) {
     return (
-        <Link className="border-2 rounded-lg p-5 m-5 transition hover:scale-110 ease-in-out" href={link}>
-            <div className="flex flex-col w-[400px]">
+        <Link className="group m-auto border-[1px] rounded-lg p-5 my-5 lg:m-5 transition hover:scale-110 hover:border-cyan-200 ease-in-out flex flex-col max-w-[450px]"
+            href={link}>
+            <div className="flex flex-col w-[400px] self-center">
                 <div className="relative h-[225px]">
                     <Image src={ImagePath} alt={ImagePath}
                            fill
                            className="object-contain"
                     />
                 </div>
-                <h2 className="text-xl w-full">{Title}</h2>
-                <p className="w-full text-yellow-100">{Software}</p>
-                <p className="text-left w-full">{Description}</p>
+                <div className="flex flex-row ">
+                    <h2 className="text-2xl w-1/2 text-left">{Title}</h2>
+                    <h2 className={`text-right w-1/2 group-hover:text-cyan-200 transition`}>{'>'}</h2>
+                </div>
+                <p className="w-full text-yellow-100 text-left">{Software}</p>
+                {Description}
             </div>
 
         </Link>
