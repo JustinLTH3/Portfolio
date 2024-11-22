@@ -6,17 +6,17 @@ export default function Home() {
             className="items-center justify-items-center min-h-screen font-mono">
             <main className="flex flex-col text-center items-center sm:items-start">
                 <div className="w-full flex flex-col items-center">
-                    <h1 className="w-full justify-centere">About Me</h1>
-                    <p className="flex justify-center flex-col text-cyan-100 lg:w-1/2 w-full">
-                        I am Tsz Him Lai, a passionate Computer Games Programming student at De Montfort University who
-                        is devoted to learn new knowledge and skills to develop capabilities and wider vision to solve
-                        problems with suitable solutions.
+                    <h1 className="w-full justify-centere">Hi I am Tsz Him Lai</h1>
+                    <p className="flex justify-center flex-col lg:w-1/2 w-full">
+                        I am a third year Games Programming student at De Montfort University who is devoted to learn
+                        new knowledge and skills to develop capabilities and wider vision to solve problems with
+                        suitable solutions.
                     </p>
                 </div>
-                <div className="w-full flex justify-center flex-col items-center text-yellow-100">
+                <div className="w-full flex justify-center flex-col items-center">
                     <h1 className="justify-center text-3xl pb-5">Technical Skills</h1>
                     <table className="table-fixed flex justify-center border-2 rounded">
-                        <tbody className=" ">
+                        <tbody>
                         <tr>
                             <th className="text-right m-10 border-spacing-5 border-r-2 border-b-2 px-5">Programming
                                 Languages

@@ -27,17 +27,19 @@ h1 {
 h2 {
     @apply text-3xl text-pink-300 ;
 }
-h3{
+
+h3 {
     @apply text-2xl pt-2 text-cyan-100;
 }
 
 th {
-    @apply  font-bold;
+    @apply font-bold text-cyan-100;
 }
 
-p,a ,li{
+p, a, li {
     @apply text-lg justify-center text-pink-200;
 }
-b{
+
+b {
     @apply text-yellow-100;
 }
