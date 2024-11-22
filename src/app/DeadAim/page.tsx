@@ -33,7 +33,7 @@ export default function Page() {
                         <li>Character</li>
                     </ul>
                 </div>
-                <div className="w-full pt-5">
+                <div id="Weapon" className="w-full pt-5">
                     <h2>Weapon</h2>
                     <h3>Replicated VFX & SFX</h3>
                     <p>Used <b>Multicast RPC</b> to spawn
@@ -43,22 +43,44 @@ export default function Page() {
                     <p>Used <b>Server RPC</b> to ensure only the
                         host has authority to calculate who is hit.
                     </p>
-                    <h3>Headshot Mechanics</h3>
+                    <h3 className="w-full">Headshot Mechanics</h3>
+                    <div className="flex flex-col lg:flex-row items-center">
+                        <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
+                            <Image
+                                src={"/Portfolio/DeadAimHeadShot.gif"}
+                                alt={"Headshot Gif"}
+                                sizes={"100vw"}
+                                fill
+                                className="object-contain border-[1px] rounded-lg"
+                            />
+                        </div>
+                        <div className="h-[225px] w-full lg:w-1/2 ml-2 relative items-center">
+                            <Image
+                                src={"/Portfolio/DeadAimBodyShot.gif"}
+                                alt={"Headshot Gif"}
+                                sizes={"100vw"}
+                                fill
+                                className="object-contain border-[1px] rounded-lg"
+                            />
+                        </div>
+                    </div>
                     <p>Trace hit to the skeletal mesh to get the hit bone and check if it is
                         head.
                     </p>
                 </div>
-                <div className="w-full pt-5">
+                <div id="Character" className="w-full pt-5">
                     <h2>Character</h2>
                     <h3>Handle Death</h3>
                     <p>When the player character die, a delegate in the health component is broadcast so that
                         callback functions like reset round can be called.</p>
                 </div>
-                <div className="w-full pt-5">
+                <div id="Game loop" className="w-full pt-5">
                     <h2>Game loop</h2>
                     <h3>Round</h3>
-                    <p>Every round has a timer that last for a minute, then when time runs out, the player will receive
-                        10 damage every 0.5 second until one player is dead. If both player die at the same time, both
+                    <p>Every round has a timer that last for a minute, then when time runs out, the player will
+                        receive
+                        10 damage every 0.5 second until one player is dead. If both player die at the same time,
+                        both
                         player will receive a point.</p>
                 </div>
             </div>

@@ -38,7 +38,7 @@ export default function RootLayout({
         <div className="h-[200px]"/>
         <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center pb-5 pt-4">
             <Link
-                className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                className="flex items-center gap-2 hover:scale-110 border-cyan-100 border-[1px] rounded-2xl p-1 transition"
                 href="/#Projects"
                 rel="noopener noreferrer"
             >
