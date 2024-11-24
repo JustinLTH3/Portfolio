@@ -34,15 +34,6 @@ export default function Page() {
                     </ul>
                 </div>
                 <div id="Weapon" className="w-full pt-5">
-                    <h2>Weapon</h2>
-                    <h3>Replicated VFX & SFX</h3>
-                    <p>Used <b>Multicast RPC</b> to spawn
-                        sound component and Niagara component on both Client and Host.
-                    </p>
-                    <h3>Fire & Reload</h3>
-                    <p>Used <b>Server RPC</b> to ensure only the
-                        host has authority to calculate who is hit.
-                    </p>
                     <h3 className="w-full">Headshot Mechanics</h3>
                     <div className="flex flex-col lg:flex-row items-center">
                         <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
@@ -67,16 +58,52 @@ export default function Page() {
                     <p>Trace hit to the skeletal mesh to get the hit bone and check if it is
                         head.
                     </p>
+                    <h2>Weapon</h2>
+                    <h3>Blueprint</h3>
+                    <p>The component class is intended to be the inherited from different weapon that have different
+                        statistic and mesh so that making new weapon can be done easily by creating new blueprint class
+                        and tweak the values.
+                    </p>
+                    <h3>Replicated VFX & SFX</h3>
+                    <p>Used <b>Multicast RPC</b> to spawn
+                        sound component and Niagara component on both Client and Host.
+                    </p>
+                    <h3>Fire & Reload</h3>
+                    <p>Used <b>Server RPC</b> to ensure only the
+                        host has authority to calculate who is hit.
+                    </p>
                 </div>
                 <div id="Character" className="w-full pt-5">
                     <h2>Character</h2>
                     <h3>Handle Death</h3>
+                    <div className="flex flex-col lg:flex-row items-center">
+                        <div className="h-[225px] w-full lg:w-1/2 my-2 relative items-center">
+                            <Image
+                                src={"/Portfolio/DeadAimDeath.gif"}
+                                alt={"Death"}
+                                sizes={"100vw"}
+                                fill
+                                className="object-contain border-[1px] rounded-lg"
+                            />
+                        </div>
+                    </div>
                     <p>When the player character die, a delegate in the health component is broadcast so that
                         callback functions like reset round can be called.</p>
                 </div>
                 <div id="Game loop" className="w-full pt-5">
                     <h2>Game loop</h2>
                     <h3>Round</h3>
+                    <div className="flex flex-col lg:flex-row items-center">
+                        <div className="h-[225px] w-full lg:w-1/2 my-2 relative items-center">
+                        <Image
+                                src={"/Portfolio/DeadAimBleeding.gif"}
+                                alt={"Death"}
+                                sizes={"100vw"}
+                                fill
+                                className="object-contain border-[1px] rounded-lg"
+                            />
+                        </div>
+                    </div>
                     <p>Every round has a timer that last for a minute, then when time runs out, the player will
                         receive
                         10 damage every 0.5 second until one player is dead. If both player die at the same time,

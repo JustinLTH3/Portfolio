@@ -28,18 +28,23 @@ export default function Page() {
                     </p>
                     <h3>What I worked on</h3>
                     <ul className="list-disc list-inside">
+                        <li>Enemy Spawning</li>
                         <li>UI</li>
                         <li>Settings</li>
-                        <li>Enemy Spawning</li>
                     </ul>
                 </div>
                 <div className="w-full pt-5">
-                    <h2>Settings</h2>
-                    <p>Test</p>
+                    <h2>Enemy</h2>
+                    <h3>Tracks</h3>
+                    <p>Tracks is dynamically spawned and the enemy will always be in the center of each track so that
+                        number of tracks can be adjusted easily in the future for further development.</p>
+                    <h3>Spawner</h3>
+                    <p>Implemented using <b>Object Pooling</b> for optimization.</p>
                 </div>
                 <div className="w-full pt-5">
-                    <h2>Enemy Spawning</h2>
-                    <p>Test</p>
+                    <h2>Settings</h2>
+                    <h3>Save and Load</h3>
+                    <p>The player can set the control and the volume. The Settings will then be saved and loaded on start.</p>
                 </div>
             </div>
         </div>
