@@ -41,8 +41,8 @@ export default function Home() {
                         </tbody>
                     </table>
                 </div>
-                <div className="w-full flex justify-center flex-col items-center text-cyan-200">
-                    <h1 className="w-full" id="Projects">Projects</h1>
+                <div className="w-full flex justify-center flex-col items-center text-cyan-200" id="Projects">
+                    <h1 className="w-full">Projects</h1>
                     <div
                         className="flex w-full justify-center justify-items-center flex-col lg:flex-row items-stretch">
                         <ProjectOverview
