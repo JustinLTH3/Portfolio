@@ -41,6 +41,7 @@ export default function RootLayout({
                 className="flex items-center gap-2 hover:scale-110 hover:border-cyan-100 border-[1px] rounded-2xl p-1 transition"
                 href="/#Projects"
                 rel="noopener noreferrer"
+                passHref
             >
                 Projects
             </Link>
