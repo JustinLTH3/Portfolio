@@ -35,11 +35,17 @@ h3 {
 th {
     @apply font-bold text-yellow-100 w-full;
 }
-td{
+
+td {
     @apply w-full;
 }
+
 p, li {
     @apply text-lg justify-center text-pink-200 text-left;
+}
+
+a {
+    @apply text-lg;
 }
 
 b {
