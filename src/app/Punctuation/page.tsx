@@ -43,8 +43,18 @@ export default function Page() {
                 </div>
                 <div className="w-full pt-5">
                     <h2>Settings</h2>
+                    <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
+                        <Image
+                            src={"/Portfolio/PunctuationSettingsMenu.png"}
+                            alt={"Settings Menu"}
+                            sizes={"100vw"}
+                            fill
+                            className="object-contain border-[1px] rounded-lg"
+                        />
+                    </div>
                     <h3>Save and Load</h3>
-                    <p>The player can set the control and the volume. The Settings will then be saved and loaded on start.</p>
+                    <p>The player can set the control and the volume. The Settings will then be saved and loaded on
+                        start.</p>
                 </div>
             </div>
         </div>
