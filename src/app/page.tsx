@@ -71,6 +71,17 @@ export default function Home() {
                             link={"/Punctuation"}
                             Software={"Unity 2022.3"}
                         />
+                        <ProjectOverview
+                            ImagePath="/Portfolio/DevelopingRootsMain.png"
+                            Title={"Developing Roots"}
+                            Description={
+                                <p>
+                                    A game that the player helps people to find more about his parents.
+                                </p>
+                            }
+                            link={"/DevelopingRoots"}
+                            Software={"Unity 2022.3"}
+                        />
 
                     </div>
                 </div>
