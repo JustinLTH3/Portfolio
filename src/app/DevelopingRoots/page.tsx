@@ -5,7 +5,7 @@ export default function Page() {
     return (
         <div className="flex flex-col items-center min-h-screen font-mono">
             <div className=" w-[400px] lg:w-[800px] flex flex-col items-center">
-                <h1>Punctuation</h1>
+                <h1>Developing Roots</h1>
                 <div className="h-[225px] lg:h-[450px] w-full relative items-center">
                     <Image
                         src={"/Portfolio/DevelopingRootsMain.png"}
