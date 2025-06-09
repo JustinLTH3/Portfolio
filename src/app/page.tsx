@@ -43,8 +43,20 @@ export default function Home() {
                 </div>
                 <div className="w-full flex justify-center flex-col items-center text-cyan-200" id="Projects">
                     <h1 className="w-full">Projects</h1>
+                    <ProjectOverview
+                        ImagePath="/Portfolio/DeadAimMainMenu.png"
+                        Title={"Flying AI Plugin"}
+                        Description={
+                            <p className="text-left">
+                                A plugin provides modular tools for creating AI that is capable of flying, which provide
+                                pathfinding system and is integrated with behaviour tree.
+                            </p>
+                        }
+                        link={"/FlyingAIPlugin"}
+                        Software={"UE 5.3"}
+                    />
                     <div
-                        className="flex w-full justify-center justify-items-center flex-col lg:flex-row items-stretch">
+                        className="flex w-full justify-center justify-items-center flex-row items-stretch flex-wrap">
                         <ProjectOverview
                             ImagePath="/Portfolio/DeadAimMainMenu.png"
                             Title={"Dead Aim"}
