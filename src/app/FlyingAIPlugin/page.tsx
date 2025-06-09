@@ -43,8 +43,8 @@ export default function Page() {
                     <p>
                         Pathfind nodes should be pre-generated with the widget. Nodes for the selected bound will be
                         generated in the users&apos; desired location. To use nodes for the bound, set the generated
-                        bound data associate to the bound. The generation is fully <b>multithreaded and optimized from 10
-                        mins to 10s</b>. Bounds overlapping or touching each other will be connected dynamically.
+                        bound data associate to the bound. The generation is fully <b>multithreaded and optimized from
+                        10 mins to 10s</b>. Bounds overlapping or touching each other will be connected dynamically.
                     </p>
                     <h3>HPA* and A* Pathfinding</h3>
                     <p>
@@ -52,6 +52,12 @@ export default function Page() {
                         segment with A*. This is to break down the pathfinding into multiple search and that the A*
                         search can be continue in the background instead of having the whole path to be found in the
                         same frame, blocking the thread.
+                    </p>
+                    <h3>Prevent Stuck</h3>
+                    <p>
+                        The A* algorithm will consider the Collider size and offset for the path so that the risk of
+                        being stuck is reduced. However the collision check is using AABB so the collider size may needs
+                        to be larger than the actual size.
                     </p>
                     <h3>Custom Pathfinding Algorithm</h3>
                     <p>
