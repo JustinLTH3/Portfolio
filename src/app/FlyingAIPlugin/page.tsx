@@ -7,8 +7,9 @@ export default function Page() {
             <div className=" w-[400px] lg:w-[800px] flex flex-col items-center">
                 <h1>Flying AI Plugin</h1>
                 <div className="h-[225px] lg:h-[450px] w-full relative items-center">
+                    {/* TODO: Change the image. */}
                     <Image
-                        src={"/Portfolio/PunctuationMenu.png"}
+                        src={"/Portfolio/FASettings.png"}
                         alt={"Screenshot"}
                         fill
                         sizes={"100vw"}
@@ -19,7 +20,7 @@ export default function Page() {
                     { /*TODO: Upload to Drive and replace link. */}
                     <Link href={"https://github.com/JustinLTH3/QuestionMark"} target="_blank"
                           className="text-cyan-200">Demo</Link>
-                    <p className="px-5">UE 5.3+</p>
+                    <p className="px-5">UE 5.3, 5.5</p>
                 </div>
                 <div className="w-full pt-5">
                     <h2 className="w-full">Description</h2>
@@ -37,9 +38,36 @@ export default function Page() {
                 </div>
                 <div className="w-full pt-5">
                     <h2>Pathfinding System</h2>
+
                     <h3>Custom Project Settings</h3>
-                    <p></p>
+
+                    <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
+                        <Link href={"/FASettings.png"}>
+                            <Image
+                                src={"/Portfolio/FASettings.png"}
+                                alt={"Settings Menu"}
+                                sizes={"100vw"}
+                                fill
+                                className="object-contain border-[1px] rounded-lg"
+                            />
+                        </Link>
+                    </div>
+                    <p>
+                        Users can set which map should uses the system, what actor type, object type is considered in
+                        collision function, and the custom pathfinding algorithm.
+                    </p>
                     <h3>Pre-generation</h3>
+                    <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
+                        <Link href={"/FAGenTab.png"}>
+                            <Image
+                                src={"/Portfolio/FAGenTab.png"}
+                                alt={"Settings Menu"}
+                                sizes={"100vw"}
+                                fill
+                                className="object-contain border-[1px] rounded-lg"
+                            />
+                        </Link>
+                    </div>
                     <p>
                         Pathfind nodes should be pre-generated with the widget. Nodes for the selected bound will be
                         generated in the users&apos; desired location. To use nodes for the bound, set the generated
@@ -67,31 +95,38 @@ export default function Page() {
                 </div>
                 <div className="w-full pt-5">
                     <h2>Debugging Tools</h2>
-                    <h3>Custom Project Settings</h3>
+                    <h3>Visual Logger</h3>
                     <p>
-
+                        The generated path will be logged to the visual logger.
+                    </p>
+                    <h3>Visualize Widget</h3>
+                    <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
+                        <Link href={"/FAVis.png"}>
+                            <Image
+                                src={"/Portfolio/FAVis.png"}
+                                alt={"Settings Menu"}
+                                sizes={"100vw"}
+                                fill
+                                className="object-contain border-[1px] rounded-lg"
+                            />
+                        </Link>
+                    </div>
+                    <p>
+                        The widget visualizes generated nodes in editor, which users can select the data to visualize
+                        and log to the visual logger.
                     </p>
                 </div>
                 <div className="w-full pt-5">
                     <h2>Location Query</h2>
-                    <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
-                        <Image
-                            src={"/Portfolio/PunctuationSettingsMenu.png"}
-                            alt={"Settings Menu"}
-                            sizes={"100vw"}
-                            fill
-                            className="object-contain border-[1px] rounded-lg"
-                        />
-                    </div>
-                    <h3>Save and Load</h3>
-                    <p>The player can set the control and the volume. The Settings will then be saved and loaded on
-                        start.</p>
+                    <p>Produce a point that is within pathfinding bound.</p>
                 </div>
                 <div className="w-full pt-5">
                     <h2>Behaviour Tree Integration</h2>
-                    <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
-
-                    </div>
+                    <h3>Fly To</h3>
+                    <p>
+                        The node will use the pathfinding system to search for a path and follow the path to the
+                        destination.
+                    </p>
                 </div>
             </div>
         </div>
