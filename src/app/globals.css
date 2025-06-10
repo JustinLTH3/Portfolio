@@ -41,7 +41,7 @@ td {
 }
 
 p, li {
-    @apply text-lg justify-center text-pink-200 text-left;
+    @apply text-lg justify-center text-pink-50 text-left;
 }
 
 a {

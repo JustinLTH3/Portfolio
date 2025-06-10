@@ -20,7 +20,7 @@ export default function ProjectOverview({ImagePath, Title, Description, link, So
                     />
                 </div>
                 <div className="flex flex-row ">
-                    <h2 className="text-2xl w-1/2 text-left">{Title}</h2>
+                    <h2 className="text-2xl w-3/4 text-left">{Title}</h2>
                     <h2 className={`text-right w-1/2 group-hover:text-cyan-200 transition`}>{'>'}</h2>
                 </div>
                 <p className="w-full text-yellow-100 text-left">{Software}</p>
