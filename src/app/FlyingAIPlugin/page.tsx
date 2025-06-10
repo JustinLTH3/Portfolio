@@ -16,8 +16,10 @@ export default function Page() {
                     />
                 </div>
                 <div className="w-full text-start flex flex-row">
-                    { /*TODO: Upload to Drive and replace link. */}
-                    <Link href={"https://github.com/JustinLTH3/QuestionMark"} target="_blank"
+                    <Link href={"https://github.com/JustinLTH3/FlyingAIPlugin"} target="_blank"
+                          className="text-cyan-200">Github</Link>
+                    <p>|</p>
+                    <Link href={"https://github.com/JustinLTH3/FlyingAIDemo.git"} target="_blank"
                           className="text-cyan-200">Demo</Link>
                     <p className="px-5">UE 5.3, 5.5</p>
                 </div>
