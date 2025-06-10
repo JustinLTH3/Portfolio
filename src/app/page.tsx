@@ -44,7 +44,7 @@ export default function Home() {
                 <div className="w-full flex justify-center flex-col items-center text-cyan-200" id="Projects">
                     <h1 className="w-full">Projects</h1>
                     <ProjectOverview
-                        ImagePath="/Portfolio/DeadAimMainMenu.png"
+                        ImagePath="/Portfolio/FYPDemo.gif"
                         Title={"Flying AI Plugin"}
                         Description={
                             <p className="text-left">

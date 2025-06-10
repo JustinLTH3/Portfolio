@@ -7,9 +7,8 @@ export default function Page() {
             <div className=" w-[400px] lg:w-[800px] flex flex-col items-center">
                 <h1>Flying AI Plugin</h1>
                 <div className="h-[225px] lg:h-[450px] w-full relative items-center">
-                    {/* TODO: Change the image. */}
                     <Image
-                        src={"/Portfolio/FASettings.png"}
+                        src={"/Portfolio/FYPDemo.gif"}
                         alt={"Screenshot"}
                         fill
                         sizes={"100vw"}
@@ -38,14 +37,12 @@ export default function Page() {
                 </div>
                 <div className="w-full pt-5">
                     <h2>Pathfinding System</h2>
-
                     <h3>Custom Project Settings</h3>
-
                     <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
                         <Link href={"/FASettings.png"}>
                             <Image
                                 src={"/Portfolio/FASettings.png"}
-                                alt={"Settings Menu"}
+                                alt={"Settings"}
                                 sizes={"100vw"}
                                 fill
                                 className="object-contain border-[1px] rounded-lg"
@@ -61,7 +58,7 @@ export default function Page() {
                         <Link href={"/FAGenTab.png"}>
                             <Image
                                 src={"/Portfolio/FAGenTab.png"}
-                                alt={"Settings Menu"}
+                                alt={"Generation Widget"}
                                 sizes={"100vw"}
                                 fill
                                 className="object-contain border-[1px] rounded-lg"
@@ -104,7 +101,7 @@ export default function Page() {
                         <Link href={"/FAVis.png"}>
                             <Image
                                 src={"/Portfolio/FAVis.png"}
-                                alt={"Settings Menu"}
+                                alt={"Visualize Widget"}
                                 sizes={"100vw"}
                                 fill
                                 className="object-contain border-[1px] rounded-lg"
@@ -123,6 +120,17 @@ export default function Page() {
                 <div className="w-full pt-5">
                     <h2>Behaviour Tree Integration</h2>
                     <h3>Fly To</h3>
+                    <div className="h-[225px] w-full lg:w-1/2 mr-2 relative items-center">
+                        <Link href={"/FAFlyTo.png"}>
+                            <Image
+                                src={"/Portfolio/FAFlyTo.png"}
+                                alt={"Fly To Nodes"}
+                                sizes={"100vw"}
+                                fill
+                                className="object-contain border-[1px] rounded-lg"
+                            />
+                        </Link>
+                    </div>
                     <p>
                         The node will use the pathfinding system to search for a path and follow the path to the
                         destination.
