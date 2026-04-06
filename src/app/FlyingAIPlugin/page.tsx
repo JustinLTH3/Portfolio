@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Page() {
     return (
-        <div className="flex flex-col items-center min-h-screen font-mono">
+        <div className="flex flex-col items-center min-h-screen">
             <div className=" w-[400px] lg:w-[800px] flex flex-col items-center">
                 <h1>Flying AI Plugin</h1>
                 <div className="h-[225px] lg:h-[450px] w-full relative items-center">

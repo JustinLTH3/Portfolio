@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className={"scroll-smooth"}>
-        <body className={`antialiased bg-black text-on-surface-variant`}>
+        <body className={`antialiased bg-black text-on-surface-variant font-body`}>
         <div
             className="z-50 flex sticky top-0 h-12 flex-row items-center border-b-2 backdrop-brightness-0 text-on-surface-variant">
             <Link href="/" className="p-10 text-2xl font-bold ease-in-out">Tsz Him Lai</Link>

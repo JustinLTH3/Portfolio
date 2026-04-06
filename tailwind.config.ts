@@ -17,8 +17,7 @@ export default {
             },
             fontFamily: {
                 "headline": ["Sans-Serif"],
-                "body": ["Inter"],
-                "label": ["Inter"]
+                "body": ["Consolas"]
             },
         },
     },
