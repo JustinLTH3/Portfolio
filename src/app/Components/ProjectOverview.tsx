@@ -10,7 +10,7 @@ export default function ProjectOverview({ImagePath, Title, Description, link, So
     Software: string,
 }) {
     return (
-        <Link className="group m-auto border-[1px] rounded-lg p-5 my-5 lg:m-5 transition hover:scale-110 hover:border-cyan-200 ease-in-out flex flex-col max-w-[450px]"
+        <Link className="bg-surface-container-low group m-auto border-[1px]  rounded-xl ghost-border p-5 my-5 lg:m-5 transition hover:scale-110 hover:border-cyan-200 ease-in-out flex flex-col max-w-[450px]"
             href={link}>
             <div className="flex flex-col w-[400px] self-center">
                 <div className="relative h-[225px]">
@@ -20,7 +20,7 @@ export default function ProjectOverview({ImagePath, Title, Description, link, So
                     />
                 </div>
                 <div className="flex flex-row ">
-                    <h2 className="text-2xl w-3/4 text-left">{Title}</h2>
+                    <h2 className="text-2xl w-3/4 text-left font-headline text-primary">{Title}</h2>
                     <h2 className={`text-right w-1/2 group-hover:text-cyan-200 transition`}>{'>'}</h2>
                 </div>
                 <p className="w-full text-yellow-100 text-left">{Software}</p>

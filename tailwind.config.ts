@@ -6,13 +6,19 @@ export default {
         "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
+    darkMode: "class",
     theme: {
         extend: {
             colors: {
-                background: "var(--background)",
-                foreground: "var(--foreground)",
-            }
+                "surface-container-low": "#1c1b1b",
+                "primary": "#c3f5ff",
+                "on-surface-variant": "#bac9cc",
+                "primary-fixed": "#9cf0ff",
+            },
+            fontFamily: {
+                "headline": ["Sans-Serif"],
+                "body": ["Consolas"]
+            },
         },
     },
-    plugins: [],
 } satisfies Config;

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Page() {
     return (
-        <div className="items-center min-h-screen font-mono flex flex-col">
+        <div className="items-center min-h-screen flex flex-col">
             <div className="w-[400px] lg:w-[800px] flex flex-col items-center">
                 <h1>Dead Aim</h1>
                 <div className="h-[225px] lg:h-[455px] w-full relative items-center">
@@ -95,7 +95,7 @@ export default function Page() {
                     <h3>Round</h3>
                     <div className="flex flex-col lg:flex-row items-center">
                         <div className="h-[225px] w-full lg:w-1/2 my-2 relative items-center">
-                        <Image
+                            <Image
                                 src={"/Portfolio/DeadAimBleeding.gif"}
                                 alt={"Death"}
                                 sizes={"100vw"}

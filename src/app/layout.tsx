@@ -1,18 +1,6 @@
 import type {Metadata} from "next";
-import localFont from "next/font/local";
 import "./globals.css";
 import Link from 'next/link'
-
-const geistSans = localFont({
-    src: "./fonts/GeistVF.woff",
-    variable: "--font-geist-sans",
-    weight: "100 900",
-});
-const geistMono = localFont({
-    src: "./fonts/GeistMonoVF.woff",
-    variable: "--font-geist-mono",
-    weight: "100 900",
-});
 
 export const metadata: Metadata = {
     title: "Tsz Him Lai | Portfolio",
@@ -26,11 +14,9 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en" className={"scroll-smooth"}>
-        <body
-            className={`${geistSans.variable} ${geistMono.variable} antialiased text-pink-100 bg-black`}
-        >
+        <body className={`antialiased bg-black text-on-surface-variant font-body`}>
         <div
-            className="z-50 flex sticky top-0 h-12 flex-row text-pink-300 items-center border-b-2 backdrop-brightness-0">
+            className="z-50 flex sticky top-0 h-12 flex-row items-center border-b-2 backdrop-brightness-0 text-on-surface-variant">
             <Link href="/" className="p-10 text-2xl font-bold ease-in-out">Tsz Him Lai</Link>
             <Link href="//#Projects" className={"ease-in-out"}>Projects</Link>
         </div>
