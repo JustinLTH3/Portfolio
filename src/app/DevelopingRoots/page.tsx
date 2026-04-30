@@ -1,7 +1,19 @@
-﻿import Image from "next/image";
+﻿"use client"
+import Image from "next/image";
 import Link from "next/link";
+import {useState} from "react";
 
 export default function Page() {
+    const [game, playGame] = useState(
+        <button onClick={() =>
+            playGame(
+                <iframe
+                    width="740" height="450"
+                    src={"DevelopingRootWeb/index.html"}
+                />)}>
+            Play Game
+        </button>
+    );
     return (
         <div className="flex flex-col items-center min-h-screen">
             <div className=" w-[400px] lg:w-[800px] flex flex-col items-center">
@@ -22,6 +34,12 @@ export default function Page() {
                     <Link href={"https://github.com/JustinLTH3/Developing-Roots"} target="_blank"
                           className="text-cyan-200">Github</Link>
                     <p className="px-5">Unity</p>
+                </div>
+
+                <div className="rounded-lg scale-100">
+                    <div className={"w-[740px] h-[450px] border-[1px] m-10 items-center flex justify-center"}>
+                        {game}
+                    </div>
                 </div>
                 <div className="w-full pt-5">
                     <h2 className="w-full">Description</h2>
