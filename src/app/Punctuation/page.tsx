@@ -8,10 +8,15 @@ export default function Page() {
     const [game, playGame] = useState(
         <button onClick={() =>
             playGame(
-                <iframe
-                    width="400" height="690"
-                    src={"PunctuationWeb/index.html"}
-                />)}>
+                <div>
+                    <iframe
+                        width="400" height="690"
+                        src={"PunctuationWeb/index.html"}
+                    />
+                    <div>drag horizontally and release to move</div>
+                </div>
+
+            )}>
             Play Game
         </button>
     );
@@ -35,7 +40,7 @@ export default function Page() {
                     <Link href={"./Punctuation/Demo/"} className="text-cyan-200">Demo</Link>
                 </div>
                 <div className="rounded-lg scale-100">
-                    <div className={"w-[400px] h-[690px] border-[1px] m-10 items-center flex justify-center"}>
+                    <div className={"w-[400px] h-[730px] border-[1px] m-10 items-center flex justify-center"}>
                         {game}
                     </div>
                 </div>
