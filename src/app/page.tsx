@@ -80,8 +80,8 @@ export default function Home() {
                             Description={
                                 <p className="text-left text-on-surface-variant">
                                     A plugin provides modular tools for creating AI that is capable of flying, which
-                                    provide
-                                    pathfinding system and is integrated with behaviour tree.
+                                    provide pathfinding system and is integrated with behaviour tree. Nominated for
+                                    Games Project of the Year 2025 at University.
                                 </p>
                             }
                             link={"/FlyingAIPlugin"}

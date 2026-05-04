@@ -30,7 +30,8 @@ export default function Page() {
                     <h2 className="w-full">Description</h2>
                     <p>
                         A plugin provides modular tools for creating AI that is capable of flying, which provide
-                        pathfinding system and is integrated with behaviour tree.
+                        pathfinding system and is integrated with behaviour tree. Nominated for Games Project of the
+                        Year 2025 at University.
                     </p>
                     <h3>What I worked on</h3>
                     <ul className="list-disc list-inside">
