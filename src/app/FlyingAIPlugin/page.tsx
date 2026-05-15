@@ -19,11 +19,11 @@ export default function Page() {
                     <Link href={"https://github.com/JustinLTH3/FlyingAIPlugin"} target="_blank"
                           className="text-cyan-200">Github</Link>
                     <p>|</p>
-                    <Link href={"https://github.com/JustinLTH3/FlyingAIDemo.git"} target="_blank"
-                          className="text-cyan-200">Demo</Link>
+                    <Link href={"https://drive.google.com/file/d/1zr62Vjzfk_gQhw0G8QmyDanPgHeRJ6KI/view?usp=sharing"} target="_blank"
+                          className="text-cyan-200">Demo Download</Link>
                     <p>|</p>
-                    <Link href={"/FlyingAIPlugin/VideoDemo"} target="_blank" className="text-cyan-200">Video Demo</Link>
-                    <p>|</p>
+                    {/*<Link href={"/FlyingAIPlugin/VideoDemo"} target="_blank" className="text-cyan-200">Video Demo</Link>*/}
+                    {/*<p>|</p>*/}
                     <p className="px-5">UE 5.3, 5.5</p>
                 </div>
                 <div className="w-full pt-5">
