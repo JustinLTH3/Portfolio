@@ -19,18 +19,19 @@ export default function Page() {
                     <Link href={"https://github.com/JustinLTH3/FlyingAIPlugin"} target="_blank"
                           className="text-cyan-200">Github</Link>
                     <p>|</p>
-                    <Link href={"https://github.com/JustinLTH3/FlyingAIDemo.git"} target="_blank"
-                          className="text-cyan-200">Demo</Link>
+                    <Link href={"https://drive.google.com/file/d/1zr62Vjzfk_gQhw0G8QmyDanPgHeRJ6KI/view?usp=sharing"} target="_blank"
+                          className="text-cyan-200">Demo Download</Link>
                     <p>|</p>
-                    <Link href={"/FlyingAIPlugin/VideoDemo"} target="_blank" className="text-cyan-200">Video Demo</Link>
-                    <p>|</p>
+                    {/*<Link href={"/FlyingAIPlugin/VideoDemo"} target="_blank" className="text-cyan-200">Video Demo</Link>*/}
+                    {/*<p>|</p>*/}
                     <p className="px-5">UE 5.3, 5.5</p>
                 </div>
                 <div className="w-full pt-5">
                     <h2 className="w-full">Description</h2>
                     <p>
                         A plugin provides modular tools for creating AI that is capable of flying, which provide
-                        pathfinding system and is integrated with behaviour tree.
+                        pathfinding system and is integrated with behaviour tree. Nominated for Games Project of the
+                        Year 2025 at University.
                     </p>
                     <h3>What I worked on</h3>
                     <ul className="list-disc list-inside">
