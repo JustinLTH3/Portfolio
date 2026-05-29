@@ -75,7 +75,7 @@ export default function Home() {
                         className="flex w-full justify-center justify-items-center flex-row items-stretch flex-wrap">
 
                         <ProjectOverview
-                            ImagePath="/Portfolio/FYPDemo.gif"
+                            ImagePath="/Portfolio/demoPic.gif"
                             Title={"Flying AI Plugin"}
                             Description={
                                 <p className="text-left text-on-surface-variant">
