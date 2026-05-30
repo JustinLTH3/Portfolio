@@ -8,7 +8,7 @@ export default function Page() {
                 <h1>Flying AI Plugin</h1>
                 <div className="h-[225px] lg:h-[450px] w-full relative items-center">
                     <Image
-                        src={"/Portfolio/FYPDemo.gif"}
+                        src={"/Portfolio/demoPic.gif"}
                         alt={"Screenshot"}
                         fill
                         sizes={"100vw"}
@@ -22,8 +22,8 @@ export default function Page() {
                     <Link href={"https://drive.google.com/file/d/1zr62Vjzfk_gQhw0G8QmyDanPgHeRJ6KI/view?usp=sharing"} target="_blank"
                           className="text-cyan-200">Demo Download</Link>
                     <p>|</p>
-                    {/*<Link href={"/FlyingAIPlugin/VideoDemo"} target="_blank" className="text-cyan-200">Video Demo</Link>*/}
-                    {/*<p>|</p>*/}
+                    <Link href={"/FlyingAIPlugin/VideoDemo"} target="_blank" className="text-cyan-200">Video Demo</Link>
+                    <p>|</p>
                     <p className="px-5">UE 5.3, 5.5</p>
                 </div>
                 <div className="w-full pt-5">
