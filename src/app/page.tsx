@@ -45,6 +45,20 @@ export default function Home() {
                     <div
                         className="flex w-full justify-center justify-items-center flex-row items-stretch flex-wrap">
                         <ProjectOverview
+                            ImagePath="/Portfolio/DiaryAppCalendar.png"
+                            Title={"Diary App"}
+                            Description={
+                                <p className="text-left text-on-surface-variant">
+                                    A <b>full-stack</b> journaling app built with Next.js, PostgreSQL, and Auth.js. Features a calendar view with entry markers, debounced autosave, and unsaved changes protection.
+                                </p>
+                            }
+                            link={"/DiaryApp"}
+                            Software={"Next.js, PostgreSQL, Auth.js"}
+                        />
+                    </div>
+                    <div
+                        className="flex w-full justify-center justify-items-center flex-row items-stretch flex-wrap">
+                        <ProjectOverview
                             ImagePath="/Portfolio/DeadAimMainMenu.png"
                             Title={"Dead Aim"}
                             Description={
