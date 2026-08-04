@@ -55,6 +55,17 @@ export default function Home() {
                             link={"/DiaryApp"}
                             Software={"Next.js, PostgreSQL, Auth.js"}
                         />
+                        <ProjectOverview
+                            ImagePath="/Portfolio/BookkeepingAppHero.png"
+                            Title={"Bookkeeping App"}
+                            Description={
+                                <p className="text-left text-on-surface-variant">
+                                    A <b>full-stack</b> bookkeeping app built with Next.js 16, PostgreSQL, and Auth.js. Features Google OAuth, interactive dashboards with charts, and CRUD operations with server-side pagination.
+                                </p>
+                            }
+                            link={"/BookkeepingApp"}
+                            Software={"Next.js 16, PostgreSQL, Prisma, Auth.js, Tailwind CSS"}
+                        />
                     </div>
                     <div
                         className="flex w-full justify-center justify-items-center flex-row items-stretch flex-wrap">
