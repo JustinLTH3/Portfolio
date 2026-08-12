@@ -8,7 +8,7 @@ export default function Page() {
         <h1>Bookkeeping App</h1>
         <div className="h-[225px] lg:h-[450px] w-full relative items-center">
           <Image
-            src={"/Portfolio/BookkeepingAppHero.png"}
+            src={"/Portfolio/bookkeeping-dashboard.png"}
             alt={"Screenshot"}
             fill
             sizes={"100vw"}
@@ -82,6 +82,15 @@ export default function Page() {
             integrity. Transactions include amount, date, category, and optional
             description.
           </p>
+          <div className="h-[225px] w-full lg:w-1/2 relative items-center pt-5">
+            <Image
+              src={"/Portfolio/bookkeeping-transaction.png"}
+              alt={"Transactions Page"}
+              fill
+              sizes={"100vw"}
+              className="object-contain border-[1px] rounded-lg"
+            />
+          </div>
         </div>
         <div className="w-full pt-5">
           <h2>Categories</h2>
