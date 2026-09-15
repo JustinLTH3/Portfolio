@@ -23,18 +23,42 @@ export default function Home() {
               </h4>
               <div className="">
                 <div className="text-xs text-on-surface-variant font-bold uppercase tracking-widest mb-3">
-                  Core Languages
+                  Languages & Tools
                 </div>
                 <div className="flex flex-wrap gap-2">
-                  <span className="text-primary font-medium">C++</span>
-                  <span className="text-outline">•</span>
-                  <span className="text-primary font-medium">C#</span>
-                  <span className="text-outline">•</span>
                   <span className="text-primary font-medium">TypeScript</span>
                   <span className="text-outline">•</span>
                   <span className="text-primary font-medium">JavaScript</span>
                   <span className="text-outline">•</span>
-                  <span className="text-primary font-medium">Python</span>
+                  <span className="text-primary font-medium">HTML</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">Tailwind CSS</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">React</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">Next.js</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">Node.js</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">PostgreSQL</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">Vitest</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">Playwright</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">Git</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">GitHub</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">Docker</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">C++</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">C#</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">Codex</span>
+                  <span className="text-outline">•</span>
+                  <span className="text-primary font-medium">OpenCode</span>
                 </div>
               </div>
             </div>
